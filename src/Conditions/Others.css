@@ -1,0 +1,41 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  max-width: 316px; /* Adjust max-width as needed */
+}
+
+.card:hover {
+  box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.best-seller {
+  position: absolute;
+  top: 0px;
+  background-color: #ba2026;
+  padding: 5px 10px;
+  border-radius: 5px 0px 0px 0px;
+  color: white;
+}
+.cart_btn {
+  position: absolute;
+  left: 0%;
+  bottom: 0px;
+  padding: 6px 26px;
+  border: 2px solid#BA2026;
+  color: #ba2026;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+  background-color: white;
+}
+.card:hover .cart_btn {
+  position: absolute;
+  left: 0%;
+  bottom: 0px;
+  background: #ba2026;
+  padding: 6px 26px;
+  border: 1px solid#BA2026;
+  color: white;
+  width: 100%;
+  transition: opacity 0.3s ease;
+  border-radius: 0 0 10px 10px;
+}

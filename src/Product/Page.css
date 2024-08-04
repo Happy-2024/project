@@ -1,0 +1,75 @@
+/* Change the color of the carousel indicators to red */
+.carousel-indicators li {
+    background-color: #BA2026; /* Red color */
+  }
+  
+  .carousel-indicators .active {
+    background-color: #FF0000; /* Different shade of red for the active indicator */
+  }
+  
+  /* Change the color of the left and right carousel controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(186, 32, 38, 0.5); /* Red color with opacity */
+  border-radius: 50%; /* Optional: make the background color circular */
+}
+.b 
+{
+    background-color: white;
+    border: 0.2px solid grey;
+}
+.but .bt
+{
+        background-color: white;
+        border: 0.5px solid grey;
+}
+.but .bt:hover
+{
+        background-color: white;
+        border: 0.5px solid  #FF0000;;
+        color:#FF0000;
+}
+
+.wishlist
+{
+    background-color: white;
+    padding: 2px 4px;
+}
+.btt
+{
+    background-color: white;
+    padding: 12px 26px;
+    border-radius: 20px;   
+}
+.btt:hover
+{
+    background-color: white;
+    padding: 12px 26px;
+    border-radius: 20px;   
+    color:#FF0000;
+    border: 0.5px solid #FF0000;
+}
+
+.bot 
+{
+    background-color:white;
+    margin-left:5px;
+    display: flex;
+    gap: 3px;
+    flex-wrap: wrap;
+    
+}
+.pt 
+{
+    background-color: white;
+    border: 0.5px solid grey;
+    height: fit-content;
+}
+.pt:hover
+{
+    background-color: white;
+    border: 0.5px solid grey;
+    height: fit-content;
+    color:#FF0000;
+    border: 0.5px solid #FF0000;
+}

@@ -1,0 +1,80 @@
+.logi-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 80vh; /* Reduce the height to shrink the space */
+    font-family: Arial, sans-serif;
+    gap: 50px; /* Space between logo and verification section */
+    padding: 20px 0; /* Optional padding to control top/bottom spacing */
+  }
+  
+  .log {
+    text-align: center;
+    flex: 1; /* Allow equal space for the logo and verification section */
+  }
+  
+  .log img {
+    width: 200px;
+    height: auto;
+  }
+  
+  .verify-section {
+    text-align: left;
+    flex: 1; /* Allow equal space for the logo and verification section */
+  }
+  
+  .verify-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .verify-section p {
+    margin: 5px 0;
+  }
+  
+  .verify-section a {
+    color: green;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .ot-input {
+    margin: 10px 0;
+  }
+  
+  .ot-input input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .timer {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: red;
+  }
+  
+  .butto {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .butto:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+  }
+  
+  .message {
+    margin-top: 10px;
+    font-size: 14px;
+    color: green;
+  }
+  

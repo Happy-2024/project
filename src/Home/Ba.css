@@ -1,0 +1,58 @@
+.contain {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 
+.tabs {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 817px;
+    background: #f1f1f1; 
+    border-radius: 99px;
+    padding: 5px; 
+} */
+
+/* 
+.tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    height: 60px;
+    font-size: 24px;
+    color: black;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 99px;
+    z-index: 1; 
+} */
+
+/* 
+.glider {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: calc(100% / 3 - 10px); 
+    height: 60px;
+    background: darkgreen;
+    border-radius: 99px;
+    z-index: 0; 
+    transition: transform 0.3s ease-out;
+}
+
+#radio-1:checked ~ .glider {
+    transform: translateX(0);
+}
+
+#radio-2:checked ~ .glider {
+    transform: translateX(100%);
+}
+
+#radio-3:checked ~ .glider {
+    transform: translateX( 200% );
+} */

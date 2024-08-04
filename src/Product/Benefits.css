@@ -1,0 +1,71 @@
+/* Ensure the tabs are centered horizontally and displayed in a straight line */
+.nav-tabs {
+  display: inline-flex;
+  justify-content: center;
+  background-color: gainsboro;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+/* margin-bottom: 1rem;  Space below the tabs, adjust as needed  */
+
+/* Style for each tab item */
+.nav-tabs .nav-item {
+  margin: 0;
+}
+
+/* Style for tab buttons */
+.nav-tabs .nav-link {
+  border: 1px solid transparent; /* Invisible border for inactive tabs */
+  border-radius: 20px; /* Rounded corners */
+  padding: 0.5rem 1rem; /* Adjust padding for spacing */
+  margin: 0 0.2rem; /* Space between tabs */
+  font-weight: 500;
+  color: #333; /* Color for inactive tabs */
+  text-align: center; /* Center text within tabs */
+  background-color: transparent; /* Light background for inactive tabs */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+/* Style for the active tab */
+.nav-tabs .nav-link.active {
+  color: white !important; /* White text for active tab */
+  background-color: darkgreen !important; /* Dark green background for active tab */
+  border-color: darkgreen !important; /* Border color matches background */
+}
+
+/* Additional styling for card components */
+.card-body {
+  padding: 1.25rem;
+}
+
+.card-title {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.Concer_tabs
+{
+  display: flex;
+  justify-content: center!important ;
+}
+.RR
+{
+  display: flex;
+  justify-content: center;
+}
+/* Responsive adjustments for small screens */
+@media only screen and (max-width: 600px) {
+  .nav-tabs {
+    flex-direction: column; /* Stack tabs vertically on small screens */
+  }
+
+  .nav-tabs .nav-link {
+    width: 100%; /* Full width for each tab on small screens */
+    margin-bottom: 0.5rem; /* Space between stacked tabs */
+  }
+}

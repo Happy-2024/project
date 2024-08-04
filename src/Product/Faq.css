@@ -1,0 +1,108 @@
+.container {
+    padding: 20px;
+  }
+  
+  .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .dropdown-content {
+    display: block;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  .verified-users {
+    margin-left: 10px;
+  }
+  
+  .overall-rating {
+    display: flex;
+  }
+  
+  .rating-number {
+    margin-right: 20px;
+  }
+  
+  .rating-number h1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .rating-number h1 .fa-star {
+    margin-left: 5px;
+  }
+  
+  .rating-bars {
+    width: 50%;
+  }
+  
+  .rating-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .rating-bar .progress {
+    flex: 1;
+    margin: 0 10px;
+    height: 10px;
+  }
+  
+  .rating-bar .progress-bar {
+    background-color: green;
+  }
+  
+  .review-list {
+    margin-top: 20px;
+  }
+  
+  .review-item {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .review-number {
+    margin-right: 10px;
+  }
+  
+  .review-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .review-header {
+    display: flex;
+  }
+  
+  .review-header h5 {
+    margin: 0;
+  }
+  
+  .review-header p {
+    margin: 0;
+    color: gray;
+  }
+  
+  .star-rating .fa-star {
+    color:  #ba2026;
+  }
+  
+  .star-rating .fa-star.checked {
+    color:  #ba2026;
+  }
+  
